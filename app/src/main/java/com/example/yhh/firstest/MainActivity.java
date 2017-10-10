@@ -3,8 +3,6 @@ package com.example.yhh.firstest;
 import java.util.ArrayList;
 import java.util.List;
 
-import lecho.lib.hellocharts.formatter.ColumnChartValueFormatter;
-import lecho.lib.hellocharts.formatter.SimpleColumnChartValueFormatter;
 import lecho.lib.hellocharts.gesture.ZoomType;
 import lecho.lib.hellocharts.model.Axis;
 import lecho.lib.hellocharts.model.AxisValue;
