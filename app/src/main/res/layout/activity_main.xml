@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yhh.firstest.MainActivity"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="管道流量监测"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        />
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/line_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/title"/>
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/columnchart"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/line_chart"
+        android:layout_marginTop="30dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
